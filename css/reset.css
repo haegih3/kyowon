@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+html,body,div,ul,ol,li,dl,dt,dd,p,address,h1,h2,h3,h4,h5,h6,blockquote,table,caption,tr,th,td,thead,tbody,tfoot,form,fieldset,legend,hr,header,nav,main,aside,section,article,figure,footer,figcaption {margin: 0; padding: 0;}
+a {text-decoration: none; color: inherit;}
+li {list-style: none;}
+table {border-collapse: collapse;}
+fieldset {border: none;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
+address,em,cite,i {font-style: normal;}
+button {font-family: inherit;}
+
+.blind {font-size: 0; line-height: 0; overflow: hidden; height: 0; text-indent: -9999px;}
+
+/* clear / clearfix 라고도 쓴다 */
+.cf:before,
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
+}
